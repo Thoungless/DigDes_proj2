@@ -1,0 +1,15 @@
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.exe
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.deps.json
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.runtimeconfig.json
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.runtimeconfig.dev.json
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.dll
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\Задание2.pdb
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.csprojAssemblyReference.cache
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.csproj.CoreCompileInputs.cache
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.AssemblyInfoInputs.cache
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.AssemblyInfo.cs
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.dll
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.pdb
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.genruntimeconfig.cache
+C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\WarAndPease.pdb
+C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.csproj.CopyComplete

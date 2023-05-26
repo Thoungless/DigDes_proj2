@@ -1,0 +1,9 @@
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.csproj.CoreCompileInputs.cache
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.AssemblyInfoInputs.cache
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.AssemblyInfo.cs
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\bin\Debug\netcoreapp3.1\WarAndPease.deps.json
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\bin\Debug\netcoreapp3.1\WarAndPease.dll
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\bin\Debug\netcoreapp3.1\WarAndPease.pdb
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.dll
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.pdb
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.csprojAssemblyReference.cache
