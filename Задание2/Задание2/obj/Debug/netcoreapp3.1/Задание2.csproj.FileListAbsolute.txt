@@ -11,5 +11,4 @@ C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp
 C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.dll
 C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.pdb
 C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.genruntimeconfig.cache
-C:\Users\fffff\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\WarAndPease.pdb
 C:\Users\fffff\source\repos\Задание2\Задание2\obj\Debug\netcoreapp3.1\Задание2.csproj.CopyComplete

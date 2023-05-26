@@ -2,13 +2,17 @@
 using System.Text.RegularExpressions;
 using System.Linq;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Threading.Tasks;
+using System.Collections.Concurrent;
 
 namespace WordCounter
 {
     public class WordCounter
     {
+        char[] delimiters = { ' ', '.', ',', ';', '!', '?' };
+
+        string[] words;
+
         private Dictionary<string, int> CountWords(string text)
         {
             string l = "<dd>&nbsp;&nbsp;";
@@ -20,9 +24,9 @@ namespace WordCounter
 
             Dictionary<string, int> wordCounts = new Dictionary<string, int>();
 
-            char[] delimiters = { ' ', '.', ',', ';', '!', '?' };
 
-            string[] words = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+            words = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+
 
             foreach (string word in words)
             {
@@ -46,13 +50,30 @@ namespace WordCounter
 
         public Dictionary<string, int> CountWordsMultiThreaded(string text)
         {
-            Dictionary<string, int> wordCounts = new Dictionary<string, int>();
-            Parallel.Invoke(() =>
+            string l = "<dd>&nbsp;&nbsp;";
+            text = text.Substring(text.IndexOf(l) + l.Length);
+            text = Regex.Replace(text, "<.*?>", String.Empty);
+            text = Regex.Replace(text, @"\r", String.Empty);
+            text = Regex.Replace(text, @"\n", String.Empty);
+            text = Regex.Replace(text, @"&nbsp;", String.Empty);
+
+            char[] delimiters = { ' ', '.', ',', ';', '!', '?' };
+
+            words = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+
+            ConcurrentDictionary<string, int> parallelWordCounts = new ConcurrentDictionary<string, int>();
+
+            Parallel.ForEach(words, word =>
             {
-                wordCounts = CountWords(text);
+                string lowercaseWord = word.ToLower();
+                parallelWordCounts.AddOrUpdate(lowercaseWord, 1, (_, count) => count + 1);
             });
 
-            return wordCounts;
+            Dictionary<string, int> wordCountsDesc = parallelWordCounts.OrderByDescending(x => x.Value)
+                .ToDictionary(x => x.Key, x => x.Value);
+
+            return wordCountsDesc;
         }
+
     }
 }

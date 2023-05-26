@@ -7,3 +7,4 @@ C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\bin\Debu
 C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.dll
 C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.pdb
 C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.csprojAssemblyReference.cache
+C:\Users\fffff\OneDrive\Рабочий стол\WarAndPease\WarAndPease\obj\Debug\netcoreapp3.1\WarAndPease.csproj.CopyComplete

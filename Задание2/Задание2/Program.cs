@@ -28,15 +28,13 @@ namespace DigDes_2_Project
             Stopwatch publicMethodStopwatch = new Stopwatch();
 
             Type type = typeof(WordCounter.WordCounter);
-            Type type2 = typeof(WordCounter.WordCounter);
 
             MethodInfo methodInfo = type.GetMethod("CountWords", BindingFlags.NonPublic | BindingFlags.Instance);
-            MethodInfo methodInfo2 = type.GetMethod("CountWordsMultiThreaded", BindingFlags.Public | BindingFlags.Instance);
+            WordCounter.WordCounter wc2 = new WordCounter.WordCounter();
 
-            if (methodInfo != null && methodInfo2 != null)
+            if (methodInfo != null)
             {
                 WordCounter.WordCounter wc = new WordCounter.WordCounter();
-                WordCounter.WordCounter wc2 = new WordCounter.WordCounter();
                 object[] parametrs = { text };
 
                 privateMethodStopwatch.Start();
@@ -45,8 +43,9 @@ namespace DigDes_2_Project
 
                 res = null;
 
+
                 publicMethodStopwatch.Start();
-                res = methodInfo2.Invoke(wc2, parametrs) as Dictionary<string, int>;
+                res = wc2.CountWordsMultiThreaded(text);
                 publicMethodStopwatch.Stop();
 
                 Console.WriteLine($"Приватный метод: Обработка текста завершена.");
@@ -69,5 +68,6 @@ namespace DigDes_2_Project
                 }
             }
         }
+
     }
 }

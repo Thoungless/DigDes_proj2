@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="WarAndPease">
+      <HintPath>..\..\..\..\source\repos\Задание2\Задание2\bin\Debug\netcoreapp3.1\WarAndPease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
